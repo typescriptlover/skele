@@ -1,6 +1,4 @@
-import { SpringOptions } from 'framer-motion';
-
-export const config: SpringOptions = {
+export const config = {
    damping: 20,
    mass: 0.2,
    stiffness: 75,

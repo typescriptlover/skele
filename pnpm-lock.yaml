@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@react-spring/web': ^9.7.0
   '@tailwindcss/typography': ^0.5.9
   '@types/node': 18.14.1
   '@types/react': ^18.0.28
@@ -8,7 +9,6 @@ specifiers:
   autoprefixer: ^10.4.13
   eslint: 8.34.0
   eslint-config-next: 13.2.1
-  framer-motion: ^10.0.0
   next: ^13.2.1
   next-seo: ^5.15.0
   postcss: ^8.4.21
@@ -18,10 +18,10 @@ specifiers:
   typescript: 4.9.5
 
 dependencies:
+  '@react-spring/web': 9.7.0_react-dom@18.2.0+react@18.2.0
   '@types/node': 18.14.1
   eslint: 8.34.0
   eslint-config-next: 13.2.1_eslint@8.34.0+typescript@4.9.5
-  framer-motion: 10.0.0_react-dom@18.2.0+react@18.2.0
   next: 13.2.1_react-dom@18.2.0+react@18.2.0
   next-seo: 5.15.0_81a6249b2a52661462adbfc7bd157dad
   react: 18.2.0
@@ -44,19 +44,6 @@ packages:
     dependencies:
       regenerator-runtime: 0.13.11
     dev: false
-
-  /@emotion/is-prop-valid/0.8.8:
-    resolution: {integrity: sha512-u5WtneEAr5IDG2Wv65yhunPSMLIpuKsbuOktRojfrEiEvRyC85LgPMZI63cr7NUqT8ZIGdSVg8ZKGxIug4lXcA==}
-    requiresBuild: true
-    dependencies:
-      '@emotion/memoize': 0.7.4
-    dev: false
-    optional: true
-
-  /@emotion/memoize/0.7.4:
-    resolution: {integrity: sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==}
-    dev: false
-    optional: true
 
   /@eslint/eslintrc/1.4.1:
     resolution: {integrity: sha512-XXrH9Uarn0stsyldqDYq8r++mROmWRI1xKMXa640Bb//SY1+ECYX6VzT6Lcx5frD0V30XieqJ0oX9I2Xj5aoMA==}
@@ -250,6 +237,60 @@ packages:
       picocolors: 1.0.0
       tiny-glob: 0.2.9
       tslib: 2.5.0
+    dev: false
+
+  /@react-spring/animated/9.7.0_react@18.2.0:
+    resolution: {integrity: sha512-ukd3TRkprLBgNc6lhOqmGMZTthEPOcxc9y7dIeyKzqtRwwYuUyMl1qQcSWynKAh3tmN3rmPXKMbwQNBZp7hxxQ==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@react-spring/shared': 9.7.0_react@18.2.0
+      '@react-spring/types': 9.7.0
+      react: 18.2.0
+    dev: false
+
+  /@react-spring/core/9.7.0_react@18.2.0:
+    resolution: {integrity: sha512-M+a1uNg0xdd1ZfjQJX+S1VwnPTC12Q4F/P03dwINkvdphaUF4Y2nXi8dmww+WB+LtjPA4qN4kBt8PJwe0RJNnw==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@react-spring/animated': 9.7.0_react@18.2.0
+      '@react-spring/rafz': 9.7.0
+      '@react-spring/shared': 9.7.0_react@18.2.0
+      '@react-spring/types': 9.7.0
+      react: 18.2.0
+    dev: false
+
+  /@react-spring/rafz/9.7.0:
+    resolution: {integrity: sha512-ooEWZyWBQ9leY0SEn2oc2Kq/93DiIwpbbQQwNlFBpJAjib201vxh2TgZi/9WPnsBm+qHzk7LXzVhHIBvoOwTcQ==}
+    dev: false
+
+  /@react-spring/shared/9.7.0_react@18.2.0:
+    resolution: {integrity: sha512-RbRrG9dbiUuAe7MhQMFmT8NVGdb54qGG4W4xqX2JjVqrpEEUlnqqsq32AGaPYzGpxY/8qLt+G3i7Me/jaO8pvg==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@react-spring/rafz': 9.7.0
+      '@react-spring/types': 9.7.0
+      react: 18.2.0
+    dev: false
+
+  /@react-spring/types/9.7.0:
+    resolution: {integrity: sha512-YEmhgtV7b6cNErxgYtlFpd/7N1EKV4IvxWjvLP3WVXi4xBhvBW7a3MCoHXzeTGbdWVK/YLnDh7BgJ542DwLZvg==}
+    dev: false
+
+  /@react-spring/web/9.7.0_react-dom@18.2.0+react@18.2.0:
+    resolution: {integrity: sha512-+mGRMHOpuewAeCuWnoD0FJG7xIkXNlF+OAjkv3RuuvkiUmex1RSRlXTAS/nrvksASx2k9AgMZUWgg7NGK/hFWQ==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@react-spring/animated': 9.7.0_react@18.2.0
+      '@react-spring/core': 9.7.0_react@18.2.0
+      '@react-spring/shared': 9.7.0_react@18.2.0
+      '@react-spring/types': 9.7.0
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /@rushstack/eslint-patch/1.2.0:
@@ -1169,19 +1210,6 @@ packages:
   /fraction.js/4.2.0:
     resolution: {integrity: sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==}
     dev: true
-
-  /framer-motion/10.0.0_react-dom@18.2.0+react@18.2.0:
-    resolution: {integrity: sha512-qVmndcu4Z3q5ftqcbUCvVewHc5yiw4uIZyM0uvJ0/spj9lza/FnWywUUc8DNIZTG1my6nFsNLRPGDruP4o6eIw==}
-    peerDependencies:
-      react: ^18.0.0
-      react-dom: ^18.0.0
-    dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-      tslib: 2.5.0
-    optionalDependencies:
-      '@emotion/is-prop-valid': 0.8.8
-    dev: false
 
   /fs.realpath/1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
