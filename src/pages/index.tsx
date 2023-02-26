@@ -16,25 +16,25 @@ export default function Home() {
 
    const AuthAnimation = useSpring({
       ...springAnimation,
-      delay: 500,
+      delay: 600,
    });
    const AnyoneAnimation = useSpring({
       ...springAnimation,
-      delay: 700,
+      delay: 800,
    });
    const AnywhereAnimation = useSpring({
       ...springAnimation,
-      delay: 800,
+      delay: 900,
    });
    const KeyAnimation = useSpring({
       ...springAnimation,
-      delay: 900,
+      delay: 1000,
    });
    const ArrivingAnimation = useSpring({
       from: { opacity: 0, scale: 0.5, y: -50 },
       to: { opacity: 1, scale: 1.0, y: 0 },
       config,
-      delay: 1100,
+      delay: 1200,
    });
 
    return (
