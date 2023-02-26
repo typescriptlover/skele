@@ -75,7 +75,7 @@ export default function Home() {
                   src={Key}
                   alt="Graphic"
                   priority={true}
-                  quality={100}
+                  unoptimized={true}
                   className="h-24 drop-shadow-lg will-change-transform animate-float w-24 sm:h-32 sm:w-32 object-cover"
                />
             </motion.div>
