@@ -43,8 +43,8 @@ export default function Home() {
                   initial={{ opacity: 0, y: 50, rotate: 5 }}
                   animate={{ opacity: 1, y: 0, rotate: 0 }}
                   transition={{
-                     ease: 'easeInOut',
-                     duration: 0.6,
+                     type: 'spring',
+                     ...config,
                      delay: 0.7,
                   }}
                   className="will-change-transform text-transparent inline-block bg-clip-text bg-gradient-to-r from-purple-500 to-violet-400"
@@ -56,8 +56,8 @@ export default function Home() {
                   initial={{ opacity: 0, y: 50, rotate: 5 }}
                   animate={{ opacity: 1, y: 0, rotate: 0 }}
                   transition={{
-                     ease: 'easeInOut',
-                     duration: 0.6,
+                     type: 'spring',
+                     ...config,
                      delay: 0.8,
                   }}
                   className="text-transparent inline-block will-change-transform bg-clip-text bg-gradient-to-r from-violet-400 to-purple-200"
