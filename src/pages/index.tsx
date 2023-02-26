@@ -15,8 +15,9 @@ export default function Home() {
                initial={{ opacity: 0, scale: 0.8, y: -25 }}
                animate={{ opacity: 1, scale: 1, y: 0 }}
                transition={{
-                  type: 'spring',
-                  ...config,
+                  ease: 'easeInOut',
+                  duration: 0.6,
+                  delay: 1.2,
                }}
                className="block will-change-transform rounded-lg bg-violet-500/10 text-xs sm:text-sm py-1 px-2.5 text-purple-500"
             >
@@ -26,8 +27,9 @@ export default function Home() {
                initial={{ opacity: 0, y: 50, rotate: 5 }}
                animate={{ opacity: 1, y: 0, rotate: 0 }}
                transition={{
-                  type: 'spring',
-                  ...config,
+                  ease: 'easeInOut',
+                  duration: 0.6,
+                  delay: 0.5,
                }}
                className="block will-change-transform mt-6 sm:mt-8 text-4xl sm:text-5xl font-semibold tracking-tight"
             >
@@ -38,8 +40,9 @@ export default function Home() {
                   initial={{ opacity: 0, y: 50, rotate: 5 }}
                   animate={{ opacity: 1, y: 0, rotate: 0 }}
                   transition={{
-                     type: 'spring',
-                     ...config,
+                     ease: 'easeInOut',
+                     duration: 0.6,
+                     delay: 0.7,
                   }}
                   className="will-change-transform text-transparent inline-block bg-clip-text bg-gradient-to-r from-purple-500 to-violet-400"
                >
@@ -49,8 +52,9 @@ export default function Home() {
                   initial={{ opacity: 0, y: 50, rotate: 5 }}
                   animate={{ opacity: 1, y: 0, rotate: 0 }}
                   transition={{
-                     type: 'spring',
-                     ...config,
+                     ease: 'easeInOut',
+                     duration: 0.6,
+                     delay: 0.8,
                   }}
                   className="text-transparent inline-block will-change-transform bg-clip-text bg-gradient-to-r from-violet-400 to-purple-200"
                >
@@ -61,8 +65,9 @@ export default function Home() {
                initial={{ opacity: 0, y: 100, rotate: 10 }}
                animate={{ opacity: 1, y: 0, rotate: 0 }}
                transition={{
-                  type: 'spring',
-                  ...config,
+                  ease: 'easeInOut',
+                  duration: 0.6,
+                  delay: 0.9,
                }}
                className="block will-change-transform mt-12 sm:mt-16"
             >
