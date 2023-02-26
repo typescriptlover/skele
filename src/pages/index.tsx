@@ -17,7 +17,6 @@ export default function Home() {
                transition={{
                   type: 'spring',
                   ...config,
-                  delay: 1.2,
                }}
                className="block will-change-transform rounded-lg bg-violet-500/10 text-xs sm:text-sm py-1 px-2.5 text-purple-500"
             >
@@ -29,7 +28,6 @@ export default function Home() {
                transition={{
                   type: 'spring',
                   ...config,
-                  delay: 0.5,
                }}
                className="block will-change-transform mt-6 sm:mt-8 text-4xl sm:text-5xl font-semibold tracking-tight"
             >
@@ -42,7 +40,6 @@ export default function Home() {
                   transition={{
                      type: 'spring',
                      ...config,
-                     delay: 0.7,
                   }}
                   className="will-change-transform text-transparent inline-block bg-clip-text bg-gradient-to-r from-purple-500 to-violet-400"
                >
@@ -54,7 +51,6 @@ export default function Home() {
                   transition={{
                      type: 'spring',
                      ...config,
-                     delay: 0.8,
                   }}
                   className="text-transparent inline-block will-change-transform bg-clip-text bg-gradient-to-r from-violet-400 to-purple-200"
                >
@@ -67,7 +63,6 @@ export default function Home() {
                transition={{
                   type: 'spring',
                   ...config,
-                  delay: 0.9,
                }}
                className="block will-change-transform mt-12 sm:mt-16"
             >

@@ -8,7 +8,9 @@ const config: IConfig = {
    locale: 'en',
    images: [
       {
-         url: 'https://skele.vercel.app/skele.png',
+         url: 'https://skele.vercel.app/gradient.png',
+         width: 1686,
+         height: 882,
          type: 'image/png',
       },
    ],
