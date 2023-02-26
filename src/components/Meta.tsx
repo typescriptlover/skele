@@ -41,7 +41,7 @@ const Meta: FC<Props> = (props) => (
          }}
          twitter={{
             site: config.canonical,
-            cardType: 'player cards',
+            cardType: 'summary_large_image',
          }}
          noindex={props.noindex || false}
          nofollow={props.nofollow || false}

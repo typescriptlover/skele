@@ -31,7 +31,7 @@ export default function Home() {
                   ...config,
                   delay: 0.5,
                }}
-               className="inline-block will-change-transform mt-6 sm:mt-8 text-4xl sm:text-5xl font-semibold tracking-tight"
+               className="block will-change-transform mt-6 sm:mt-8 text-4xl sm:text-5xl font-semibold tracking-tight"
             >
                Authentication
             </motion.h1>
