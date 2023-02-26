@@ -25,6 +25,8 @@ const Nav = () => {
                   <Image
                      src={Logo}
                      alt="skele logo"
+                     quality={100}
+                     priority={true}
                      className="h-5 w-5 grayscale inline-block mr-3 group-hover:filter-none transition-transform will-change-transform duration-200 ease-linear group-hover:scale-110"
                   />
                   Skele
