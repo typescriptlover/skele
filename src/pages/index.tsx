@@ -26,7 +26,7 @@ export default function Home() {
             </motion.div>
             <motion.h1
                key="auth"
-               initial={{ opacity: 0, y: 50, rotate: 5 }}
+               initial={{ opacity: 0, y: 75, rotate: 5 }}
                animate={{ opacity: 1, y: 0, rotate: 0 }}
                transition={{
                   type: 'spring',
@@ -40,7 +40,7 @@ export default function Home() {
             <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight mt-3 sm:mt-4">
                <motion.span
                   key="anyone"
-                  initial={{ opacity: 0, y: 50, rotate: 5 }}
+                  initial={{ opacity: 0, y: 75, rotate: 5 }}
                   animate={{ opacity: 1, y: 0, rotate: 0 }}
                   transition={{
                      type: 'spring',
@@ -53,7 +53,7 @@ export default function Home() {
                </motion.span>{' '}
                <motion.span
                   key="anywhere"
-                  initial={{ opacity: 0, y: 50, rotate: 5 }}
+                  initial={{ opacity: 0, y: 75, rotate: 5 }}
                   animate={{ opacity: 1, y: 0, rotate: 0 }}
                   transition={{
                      type: 'spring',
