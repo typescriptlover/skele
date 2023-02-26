@@ -42,6 +42,7 @@ const Meta: FC<Props> = (props) => (
             site: config.canonical,
             cardType: 'summary_large_image',
          }}
+         themeColor="#FFFFFF"
          noindex={props.noindex || false}
          nofollow={props.nofollow || false}
       />
