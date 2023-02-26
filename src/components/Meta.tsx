@@ -23,7 +23,6 @@ const Meta: FC<Props> = (props) => (
             content="width=device-width,initial-scale=1"
             key="viewport"
          />
-         <link rel="shortcut icon" href="/bleed.png" />
       </Head>
       <NextSeo
          title={props.title ? config.title + ' - ' + props.title : config.title}
