@@ -9,7 +9,7 @@ import { config } from '@/lib/spring';
 
 export default function Home() {
    const springAnimation = {
-      from: { opacity: 0, rotate: 6, y: 75 },
+      from: { opacity: 0, rotate: 4, y: 50 },
       to: { opacity: 1, rotate: 0, y: 0 },
       config,
    };
