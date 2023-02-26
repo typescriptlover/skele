@@ -12,11 +12,12 @@ export default function Home() {
       <Box>
          <div className="relative z-50 m-auto flex flex-col items-center justify-center text-center">
             <motion.div
+               key="arriving"
                initial={{ opacity: 0, scale: 0.8, y: -25 }}
                animate={{ opacity: 1, scale: 1, y: 0 }}
                transition={{
-                  ease: 'easeInOut',
-                  duration: 0.6,
+                  type: 'spring',
+                  ...config,
                   delay: 1.2,
                }}
                className="block will-change-transform rounded-lg bg-violet-500/10 text-xs sm:text-sm py-1 px-2.5 text-purple-500"
@@ -24,11 +25,12 @@ export default function Home() {
                Arriving late <strong>2023</strong>
             </motion.div>
             <motion.h1
+               key="auth"
                initial={{ opacity: 0, y: 50, rotate: 5 }}
                animate={{ opacity: 1, y: 0, rotate: 0 }}
                transition={{
-                  ease: 'easeInOut',
-                  duration: 0.6,
+                  type: 'spring',
+                  ...config,
                   delay: 0.5,
                }}
                className="block will-change-transform mt-6 sm:mt-8 text-4xl sm:text-5xl font-semibold tracking-tight"
@@ -37,6 +39,7 @@ export default function Home() {
             </motion.h1>
             <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight mt-3 sm:mt-4">
                <motion.span
+                  key="anyone"
                   initial={{ opacity: 0, y: 50, rotate: 5 }}
                   animate={{ opacity: 1, y: 0, rotate: 0 }}
                   transition={{
@@ -49,6 +52,7 @@ export default function Home() {
                   anyone
                </motion.span>{' '}
                <motion.span
+                  key="anywhere"
                   initial={{ opacity: 0, y: 50, rotate: 5 }}
                   animate={{ opacity: 1, y: 0, rotate: 0 }}
                   transition={{
@@ -62,11 +66,12 @@ export default function Home() {
                </motion.span>
             </h1>
             <motion.div
+               key="key"
                initial={{ opacity: 0, y: 100, rotate: 10 }}
                animate={{ opacity: 1, y: 0, rotate: 0 }}
                transition={{
-                  ease: 'easeInOut',
-                  duration: 0.6,
+                  type: 'spring',
+                  ...config,
                   delay: 0.9,
                }}
                className="block will-change-transform mt-12 sm:mt-16"

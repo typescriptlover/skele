@@ -9,6 +9,7 @@ const Nav = () => {
       <nav className="fixed top-0 inset-x-0 px-6 py-12 z-[1000]">
          <div className="max-w-xl mx-auto w-full">
             <motion.div
+               key="skele"
                initial={{ opacity: 0, y: 15, rotate: 10 }}
                animate={{ opacity: 1, y: 0, rotate: 0 }}
                transition={{
@@ -22,6 +23,7 @@ const Nav = () => {
                   className="text-lg group inline-flex items-center font-medium tracking-tight"
                >
                   <motion.span
+                     key="logo"
                      initial={{ opacity: 0, scale: 0.5 }}
                      animate={{ opacity: 1, scale: 1 }}
                      transition={{
