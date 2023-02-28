@@ -26,7 +26,7 @@ const Nav = () => {
             >
                <Link
                   href="/"
-                  className="text-lg group inline-flex items-center font-medium tracking-tight"
+                  className="text-lg group inline-flex items-center font-medium"
                >
                   <animated.span
                      style={LogoAnimation}

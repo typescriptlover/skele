@@ -39,20 +39,20 @@ export default function Home() {
 
    return (
       <Box>
-         <div className="relative z-50 m-auto flex flex-col items-center justify-center text-center">
+         <div className="relative z-50 m-auto flex flex-col font- items-center justify-center text-center">
             <animated.div
                style={ArrivingAnimation}
-               className="block will-change-transform rounded-lg bg-violet-500/10 text-xs sm:text-sm py-1 px-2.5 text-purple-500"
+               className="block will-change-transform font-light rounded-lg bg-violet-500/10 text-xs sm:text-sm py-1 px-2.5 text-purple-500"
             >
-               Arriving late <strong>2023</strong>
+               Arriving late <span className="font-medium">2023</span>
             </animated.div>
             <animated.h1
                style={AuthAnimation}
-               className="block will-change-transform mt-6 sm:mt-8 text-4xl sm:text-5xl font-semibold tracking-tight"
+               className="block will-change-transform mt-6 sm:mt-8 text-4xl sm:text-5xl font-semibold"
             >
                Authentication
             </animated.h1>
-            <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight mt-3 sm:mt-4">
+            <h1 className="text-3xl sm:text-4xl font-medium mt-3 sm:mt-4">
                <animated.span
                   style={AnyoneAnimation}
                   className="will-change-transform text-transparent inline-block bg-clip-text bg-gradient-to-r from-purple-500 to-violet-400"

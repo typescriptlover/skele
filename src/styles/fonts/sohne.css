@@ -1,0 +1,119 @@
+@font-face {
+   font-family: 'Sohne';
+   font-style: normal;
+   font-weight: 200;
+   font-display: swap;
+   src: url('sohne/Sohne-Extraleicht.otf') format('opentype');
+}
+@font-face {
+   font-family: 'Sohne';
+   font-style: italic;
+   font-weight: 200;
+   font-display: swap;
+   src: url('sohne/Sohne-ExtraleichtKursiv.otf') format('opentype');
+}
+
+@font-face {
+   font-family: 'Sohne';
+   font-style: normal;
+   font-weight: 300;
+   font-display: swap;
+   src: url('sohne/Sohne-Leicht.otf') format('opentype');
+}
+@font-face {
+   font-family: 'Sohne';
+   font-style: italic;
+   font-weight: 300;
+   font-display: swap;
+   src: url('sohne/Sohne-LeichtKursiv.otf') format('opentype');
+}
+
+@font-face {
+   font-family: 'Sohne';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: url('sohne/Sohne-Buch.otf') format('opentype');
+}
+@font-face {
+   font-family: 'Sohne';
+   font-style: italic;
+   font-weight: 400;
+   font-display: swap;
+   src: url('sohne/Sohne-BuchKursiv.otf') format('opentype');
+}
+
+@font-face {
+   font-family: 'Sohne';
+   font-style: normal;
+   font-weight: 500;
+   font-display: swap;
+   src: url('sohne/Sohne-Kraftig.otf') format('opentype');
+}
+@font-face {
+   font-family: 'Sohne';
+   font-style: italic;
+   font-weight: 500;
+   font-display: swap;
+   src: url('sohne/Sohne-KraftigKursiv.otf') format('opentype');
+}
+
+@font-face {
+   font-family: 'Sohne';
+   font-style: normal;
+   font-weight: 600;
+   font-display: swap;
+   src: url('sohne/Sohne-Halbfett.otf') format('opentype');
+}
+@font-face {
+   font-family: 'Sohne';
+   font-style: italic;
+   font-weight: 600;
+   font-display: swap;
+   src: url('sohne/Sohne-HalbfettKursiv.otf') format('opentype');
+}
+
+@font-face {
+   font-family: 'Sohne';
+   font-style: normal;
+   font-weight: 700;
+   font-display: swap;
+   src: url('sohne/Sohne-Dreiviertelfett.otf') format('opentype');
+}
+@font-face {
+   font-family: 'Sohne';
+   font-style: italic;
+   font-weight: 700;
+   font-display: swap;
+   src: url('sohne/Sohne-DreiviertelfettKursiv.otf') format('opentype');
+}
+
+@font-face {
+   font-family: 'Sohne';
+   font-style: normal;
+   font-weight: 800;
+   font-display: swap;
+   src: url('sohne/Sohne-Fett.otf') format('opentype');
+}
+@font-face {
+   font-family: 'Sohne';
+   font-style: italic;
+   font-weight: 800;
+   font-display: swap;
+   src: url('sohne/Sohne-FettKursiv.otf') format('opentype');
+}
+
+@font-face {
+   font-family: 'Sohne';
+   font-style: normal;
+   font-weight: 900;
+   font-display: swap;
+   src: url('sohne/Sohne-Extrafett.otf') format('opentype');
+}
+@font-face {
+   font-family: 'Sohne';
+   font-style: italic;
+   font-weight: 900;
+   font-display: swap;
+   src: url('sohne/Sohne-ExtrafettKursiv.otf') format('opentype');
+}

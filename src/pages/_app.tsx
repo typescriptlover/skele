@@ -1,3 +1,4 @@
+import '@/styles/fonts/sohne.css';
 import '@/styles/fonts/inter.css';
 import '@/styles/index.css';
 

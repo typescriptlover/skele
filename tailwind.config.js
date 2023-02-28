@@ -22,6 +22,7 @@ module.exports = {
    theme: {
       fontFamily: {
          inter: fallbackFonts('Inter var'),
+         sohne: fallbackFonts('Sohne'),
       },
       extend: {
          backgroundImage: {
